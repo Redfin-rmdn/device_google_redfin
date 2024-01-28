@@ -6,7 +6,7 @@
 
 # Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/derpfest/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/redfin/aosp_redfin.mk)
@@ -17,7 +17,7 @@ include device/google/redfin/device-lineage.mk
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 5
-PRODUCT_NAME := lineage_redfin
+PRODUCT_NAME := derp_redfin
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
